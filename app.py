@@ -81,7 +81,7 @@ if (selected == 'Diabetes Prediction'):
 
       input_json = json.dumps(input_data_for_model)
       diab_diagnosis = requests.post(url, data=input_json)
-    st.success(diab_diagnosis)
+    st.success(diab_diagnosis.text)
 
 
 
