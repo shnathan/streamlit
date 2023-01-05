@@ -66,7 +66,7 @@ if (selected == 'Diabetes Prediction'):
     # creating a button for Prediction
     
     if st.button('Diabetes Test Result'):
-      url = 'https://mlmodelapiai.herokuapp.com/'
+      url = 'http://4f10-34-73-5-65.ngrok.io'
       input_data_for_model = {
           'pregnancies' : Pregnancies,
           'Glucose' : Glucose,
